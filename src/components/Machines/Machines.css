@@ -1,0 +1,91 @@
+.machines{
+    width: 100%;
+}
+
+.machines .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  40px 20px;
+    text-align: center;
+}
+
+.machines_section_heading{
+    padding: 5px;
+}
+
+.machines_section_heading h4{
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.machines_img{
+    max-width: 80%;
+}
+
+.machines_img img{
+    max-width: 100%;
+    padding: 15px;
+}
+
+.machines_list{
+    padding: 5px ;
+}
+
+.machines_list p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* ------------------ Media queries for small devices -------------------- */
+
+
+@media screen and (max-width: 768px) {
+
+    .machines_section_heading h4{
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    
+.machines_img{
+    max-width: 70%;
+}
+
+.machines_img img{
+    max-width: 100%;
+    padding: 5px;
+}
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .machines .wrapper{
+        margin: 1.2rem 0;
+    }
+
+    .machines_section_heading h4{
+        font-size: 14px;
+    }
+    .machines_img{
+        max-width: 100%;
+    }
+    
+    .machines_img img{
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .machines_list p{
+        font-size: 13px;
+    }
+    
+
+    
+}
