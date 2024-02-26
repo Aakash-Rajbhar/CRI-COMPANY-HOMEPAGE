@@ -14,9 +14,9 @@ const Footer = () => {
 
                     <li><i class="fa-solid fa-phone"></i> Toll free <span>1800 200 1234</span></li>
 
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i> www.facebook.com/cripumps</a></li>
+                    <li><a href="/"><i class="fa-brands fa-facebook"></i> www.facebook.com/cripumps</a></li>
 
-                    <li><a href="#"><i class="fa-solid fa-globe"></i>www.cirgroups.com</a></li>
+                    <li><a href="/"><i class="fa-solid fa-globe"></i>www.cirgroups.com</a></li>
 
                 </ul>
             </div>
